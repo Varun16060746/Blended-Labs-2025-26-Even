@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: VARUN A
+* **Register Number**: 212224050057
+* **Date of Submission**: 20-08-2026
 ---
 
 ## Objective
@@ -85,13 +84,11 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Created a VPC with public and private subnets, along with the required Internet Gateway and NAT Gateway.
+2. Created additional public and private subnets in a second Availability Zone and configured their route tables.
+3. Created a security group and allowed HTTP access to the web server.
+4. Launched an EC2 instance named Web Server 1 in the public subnet and configured it with the security group
+5. Installed and started the web server using the launch script, accessed it through its public DNS, and verified that the web page was working
 
 ---
 
@@ -99,19 +96,21 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1536" height="692" alt="image" src="https://github.com/user-attachments/assets/f9d70f90-94ae-4a61-9281-f0a7c92f251f" />
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1372" height="712" alt="Screenshot 2026-08-17 154740" src="https://github.com/user-attachments/assets/5726fc08-0768-47e6-843d-71a5b9964074" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1345" height="533" alt="Screenshot 2026-08-17 155252" src="https://github.com/user-attachments/assets/4a3d3146-ba2b-40f4-84e9-fc80e3b23589" />
+
 
 ---
 
